@@ -1,0 +1,42 @@
+﻿Build started 21-Nov-21 9:43:43 PM.
+     1>Project "C:\Users\hp\Desktop\MyProject\MyProject\MyProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\MyProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\MyProject.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt MyProject.cpp /clr:nostdlib 
+         MyProject.cpp
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(719): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\hp\desktop\myproject\myproject\Form1.h(712) : definition of 'i' ignored
+                 c:\users\hp\desktop\myproject\myproject\Form1.h(705) : definition of 'i' used
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(790): warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(796): warning C4244: '+=' : conversion from 'long double' to 'int', possible loss of data
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(1537): warning C4101: 'buffer' : unreferenced local variable
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(1597): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(1598): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>c:\users\hp\desktop\myproject\myproject\Form1.h(1599): warning C4553: '==' : operator has no effect; did you intend '='?
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,x64\Debug\MyProject.Form1.resources
+         Processing resource file "Form1.resX" into "x64\Debug\MyProject.Form1.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Desktop\MyProject\x64\Debug\MyProject.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:x64\Debug\MyProject.Form1.resources /MANIFEST /ManifestFile:"x64\Debug\MyProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hp\Desktop\MyProject\x64\Debug\MyProject.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\MyProject.obj
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         MyProject.vcxproj -> C:\Users\hp\Desktop\MyProject\x64\Debug\MyProject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\hp\Desktop\MyProject\x64\Debug\MyProject.exe;#1" /manifest x64\Debug\MyProject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\MyProject.unsuccessfulbuild".
+         Touching "x64\Debug\MyProject.lastbuildstate".
+     1>Done Building Project "C:\Users\hp\Desktop\MyProject\MyProject\MyProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.09
